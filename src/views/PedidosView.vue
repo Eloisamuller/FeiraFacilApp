@@ -1,6 +1,7 @@
 <script setup>
-  // O aluno deverá implementar a lógica do componente.
-  // import { pedidos } from '@/data/pedidos'
+ const produtos = ref([
+  ('id','codigo','nome','produto','preco','quantidade')
+ ])
 </script>
 
 <template>
